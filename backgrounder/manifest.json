@@ -23,5 +23,6 @@
       "128": "images/fmd-logo128.png"
     }
   },
+  "options_page": "options.html",
   "manifest_version": 2
 }
