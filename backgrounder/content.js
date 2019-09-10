@@ -24,8 +24,16 @@ function engageBackgrounder() {
     }
 }
 
+function removeAEMOverlay() {
+    let elements = document.body.querySelectorAll('[data-type=["Editable"],#OverlayWrapper');
+    elements.style.display='none';
+}
+
 chrome.runtime.onMessage.addListener(function (request) {
     if (request === 'engage-backgrounder') {
         engageBackgrounder();
+    }
+    if (request === 'remove-AEM-overlay') {
+        removeAEMOverlay();
     }
 });
