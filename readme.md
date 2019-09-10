@@ -2,7 +2,9 @@
 
 A chrome plug-in for developers to help you figure out what that darn **CSS** is doing to your markup.
 
-In-Progress...
+![Backgrounder](./backgrounder/images/backgrounder.png)
+
+:gear::gear::gear: In-Progress :gear::gear::gear:
 
 
 ## Installation
