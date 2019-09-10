@@ -25,8 +25,10 @@ function engageBackgrounder() {
 }
 
 function removeAEMOverlay() {
-    let elements = document.body.querySelectorAll('[data-type=["Editable"],#OverlayWrapper');
-    elements.style.display='none';
+    let elements = document.body.querySelectorAll('[data-type="Editable"],#OverlayWrapper');
+    for (const element of elements) {
+        element.style.display = "none";
+    }
 }
 
 chrome.runtime.onMessage.addListener(function (request) {
