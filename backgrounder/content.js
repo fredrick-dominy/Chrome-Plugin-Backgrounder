@@ -31,11 +31,14 @@ function removeAEMOverlay() {
     }
 }
 
-chrome.runtime.onMessage.addListener(function (request) {
-    if (request === 'engage-backgrounder') {
+chrome.runtime.onMessage.addListener(function (message) {
+
+    if (message === 'engage-backgrounder') {
+        // TODO check browser for aem and set selector to pick the Iframe
         engageBackgrounder();
     }
-    if (request === 'remove-AEM-overlay') {
+    if (message === 'remove-AEM-overlay') {
+
         removeAEMOverlay();
     }
 });
