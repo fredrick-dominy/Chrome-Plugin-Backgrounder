@@ -2,21 +2,32 @@
 <html lang="en">
 <head>
     <style>
+        div.button-wrap {
+            border: solid 2px transparent;
+        }
+        div.button-wrap:hover, div.button-wrap:focus-within {
+            border: solid 2px red;
+        }
         button {
             height: 30px;
-            /*width: 30px;*/
             padding: 20px 30px;
-            outline: none;
-            border: 0;
+            border: solid 2px black;
             background-color: white;
             font-size: 18px;
             font-weight: bold;
+            line-height: 0;
+            border-radius: 4px;
+        }
+        button:hover, button:focus {
+            background-color: #cccccc;
         }
     </style>
     <title>Backgrounder Popup</title>
 </head>
 <body>
-<button id="changeColor"></button>
+<div class="button-wrap">
+    <button id="backgrounderButton">Backgrounder</button>
+</div>
 <script src="popup.js"></script>
 </body>
 </html>

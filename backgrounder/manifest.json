@@ -24,5 +24,11 @@
     }
   },
   "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
   "manifest_version": 2
 }
