@@ -2,6 +2,8 @@
 
 A chrome plug-in for developers to help you figure out what that darn **CSS** is doing to your markup.
 
+[![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
+
 ![Backgrounder](./backgrounder/images/backgrounder.png)
 
 :gear::gear::gear: In-Progress :gear::gear::gear:
