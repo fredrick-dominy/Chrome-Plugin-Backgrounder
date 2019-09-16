@@ -32,7 +32,6 @@ function removeAEMOverlay() {
 }
 
 chrome.runtime.onMessage.addListener(function (message) {
-
     if (message === 'engage-backgrounder') {
         // TODO check browser for aem and set selector to pick the Iframe
         engageBackgrounder();
